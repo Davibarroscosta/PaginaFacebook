@@ -1,0 +1,94 @@
+*{
+    background-color: rgb(231, 231, 224);   
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 180px;
+    margin-left: 200px;
+}
+
+span{
+    color: blue;
+    font-size: 60px;
+    font-family: Arial;
+}
+
+p{
+    font-family: Arial;
+    margin-top: -20px;
+    font-size: 25px;
+}
+
+form{
+    position: relative;
+    width: 380px;
+    height: 350px;
+    background: #fcfcfc;
+    border-radius: 10px;
+    box-shadow: 10px 50px 70px rgb(250, 247, 247),
+    inset 10px 50px 70px rgb(250, 246, 246);
+    color: white;
+    margin-left: 750px;
+    margin-top: -260px;
+}
+
+form input{
+    display: block;
+    margin: 0 auto;
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid rgb(202, 200, 200);
+    font-size: 15px;
+}
+
+#input1{
+    color: #fff;
+    background-color: dodgerblue;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#input1:hover{
+    background-color: rgb(17, 125, 233);
+    cursor: pointer;
+}
+
+#input2{
+    color: #fff;
+    width: 200px;
+    background-color: rgb(0, 255, 42);
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 45px;
+}
+
+#input2:hover{
+    background-color: rgb(101, 194, 8);
+    cursor: pointer;
+}
+
+a:link{
+    color: dodgerblue;
+    text-decoration: none;
+    background-color: #fff;
+    margin-left: 130px;
+}
+
+a:link:hover{
+    text-decoration: underline;
+}
+
+#linha-horizontal{
+    width: 330px;
+    border: 1px solid rgb(202, 200, 200);
+    margin-left: 24px;
+}
+
+
+

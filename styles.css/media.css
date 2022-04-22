@@ -1,0 +1,31 @@
+@media screen and (max-width: 760px){
+
+    *{
+        background-color: rgb(231, 231, 224);   
+    }
+    
+    main{
+        margin-top: 10px;
+        margin-left: 20px;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 38px;
+        text-align: center;
+    }
+
+    form{
+        position: relative;
+        width: 380px;
+        height: 350px;
+        background: #fcfcfc;
+        border-radius: 10px;
+        box-shadow: 10px 50px 70px rgb(250, 247, 247),
+        inset 10px 50px 70px rgb(250, 246, 246);
+        color: white;
+        margin-left: 55px;
+        margin-top:  30px;
+    }
+
+}
